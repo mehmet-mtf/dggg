@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Bebeğim Ataseven’in Doğum Günü</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🎉 Bebeğim Ataseven’in Doğum Günü 🎉</h1>
+
+<div class="mesaj">
+  AŞKIM SENİ COK SEVİYORUM İYİİİİİ Kİİİİİİİ DOĞDUNNNNNN KESKE BU KADAR UZAK OLMASAYDIK AMA YAPICAK Bİ SEY YOK BU DOGUM GÜNÜ BÖYLE OLSUN AŞKIMIZA HİCBİR SEY ENGEL DEĞİL İYİ Kİ DOĞDUN İYİ Kİ BENİMLESİN DÜNYANIN EN MÜKEMMEL KUSURSUZ KIZI SANA ÇOK AŞIĞIM SENİ ÇOOOOOOKKKKK SEVİYORUM BEBEĞİM BENİM
+</div>
+
+<audio autoplay loop>
+  <source src="https://drive.google.com/uc?export=download&id=1SVZ0MAonbalCRUerxd58x61IMBXccpxK" type="audio/mpeg" />
+  Tarayıcınız ses dosyasını desteklemiyor.
+</audio>
+
+  <section>
+    <h2>AŞKIMI ANLATAN BİR MÜZİK💖</h2>
+    <p>dinle bitanem 👇</p>
+    <iframe width="300" height="170" src="https://www.youtube.com/embed/VziXamQqUzY?autoplay=1&loop=1&playlist=VziXamQqUzY" 
+    title="Doğum Günü Müziği" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 | Hazırlayan: Sen 💌</p>
+  </footer>
+
+  <script>
+    const birthday = new Date("August 10, 2025 00:00:00").getTime();
+    const countdownFunc = setInterval(() => {
+      const now = new Date().getTime();
+      const distance = birthday - now;
+
+      if (distance < 0) {
+        document.getElementById("timer").innerHTML = "🎉 Doğum Günü Geldi! 🎉";
+        clearInterval(countdownFunc);
+      } else {
+        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((distance / (1000 * 60 * 60)) % 24);
+        const minutes = Math.floor((distance / (1000 * 60)) % 60);
+        const seconds = Math.floor((distance / 1000) % 60);
+
+        document.getElementById("timer").innerHTML =
+          `${days} gün ${hours} saat ${minutes} dakika ${seconds} saniye kaldı`;
+      }
+    }, 1000);
+  </script>
+</body>
+</html>

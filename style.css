@@ -1,0 +1,63 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('../images/hearts-background.png');
+  background-repeat: repeat;
+  background-size: auto;
+}
+
+  font-family: 'Comic Sans MS', cursive;
+  margin: 0;
+  padding: 20px;
+  background-image: url('https://i.imgur.com/3ZQ3N4W.png'); /* pembe kalpli desen */
+  background-size: 100px 100px;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  color: #333;
+  text-align: center;
+}
+
+h1 {
+  background-color: rgba(255, 192, 203, 0.6);
+  padding: 20px;
+  border-radius: 15px;
+}
+
+section {
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 15px;
+  max-width: 600px;
+}
+
+footer {
+  margin-top: 30px;
+  color: #555;
+}
+body {
+  background-image: url('39295.png');
+  background-repeat: repeat;
+  background-size: auto;
+}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Quicksand:wght@500&display=swap');
+
+.mesaj {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 26px;
+  color: #ff4da6;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 12px 20px;
+  border-radius: 12px;
+  display: inline-block;
+  margin: 30px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.mesaj:hover {
+  transform: scale(1.05);
+}
+
